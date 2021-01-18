@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  position: absolute;
+  background-color: white;
+  background-image: url("bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  top: 0; 
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.modal-input{
+  margin-top: 10px;
+}
+
+#modal-header, #modal-body, #modal-footer{
+  background-color: rgb(40, 51, 61);
+}
+
+#modal-header{
+  color: white;
+}
+
+#spotify-player{
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+#row{
+  float: left;
+  width: 50%;
+}
+
+#table-bootstrap{
+  width: 100%;
+  background-color: white;
+}
+
+#table{
+  width: 30%;
+}
+
+#deleteButton{
+  margin-left: 4px;
+}
